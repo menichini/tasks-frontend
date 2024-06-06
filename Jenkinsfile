@@ -4,7 +4,7 @@ pipeline {
         maven 'maven'
     }
     stages {
-        stage('Build'){
+        stage('Build  task-Frontend'){
             steps {
                 sh '''
                 mvn clean package -DskipTests
